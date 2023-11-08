@@ -1,0 +1,45 @@
+﻿/* Estilos generales para el cuerpo de la página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+/* Estilos para el contenedor de la calculadora */
+.calculator-container {
+    background-color: #f8f8f8;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 5px 5px 10px #aaa;
+    width: 400px;
+    margin: 20px auto;
+}
+/* Estilos para el título principal de la página */
+h1 {
+    color: #333;
+}
+/* Estilos para la cuadrícula de botones de la calculadora */
+.calculator-grid {
+    margin-top: 20px;
+    text-align: center;
+}
+/* Estilos para los botones de la calculadora */
+.calc-button {
+    width: 80px;
+    height: 80px;
+    font-size: 24px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+/* Estilos para el campo de visualización */
+.display {
+    width: 250px;
+    height: 40px;
+    font-size: 24px;
+    margin: 10px;
+    text-align: right;
+}
